@@ -1,0 +1,45 @@
+{
+  "name": "pochis",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev src/index.ts",
+    "lint": "ts-standard",
+    "build": "tsc",
+    "tsc": "tsc",
+    "start": "node build/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@babel/cli": "7.24.8",
+    "@babel/core": "7.25.2",
+    "@babel/node": "7.25.0",
+    "@babel/preset-env": "7.25.3",
+    "@types/express": "4.17.21",
+    "@types/node": "22.1.0",
+    "morgan": "1.10.0",
+    "nodemon": "3.1.4",
+    "ts-node": "10.9.2",
+    "ts-node-dev": "2.0.0",
+    "ts-standard": "12.0.2",
+    "typescript": "5.5.4"
+  },
+  "dependencies": {
+    "dotenv": "16.4.5",
+    "express": "4.19.2",
+    "find-free-port": "2.0.0",
+    "promise-mysql": "5.2.0"
+  },
+  "eslintConfig": {
+    "parserOptions": {
+      "project": "./tsconfig.json"
+    },
+    "extends": [
+      "./node_modules/ts-standard/eslintrc.json"
+    ]
+  }
+}

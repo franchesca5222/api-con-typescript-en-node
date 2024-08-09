@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "date": "2024-04-07",
+      "kind": "lounge",
+      "pay":  "cash",
+      "comment": "Excelente servicio"
+    },
+
+   {
+      "id": 2,
+      "date": "2024-04-06",
+      "kind": "bar",
+      "pay":  "credit card",
+      "comment": "Buena comida pero falta mejorar sus bebidas"
+    },
+
+    {
+        "id": 3,
+        "date": "2024-04-07",
+        "kind": "terrace",
+        "pay":  "courtesy",
+        "comment": "El mozo demoro en tomar orden"
+      }
+  ]
+  
